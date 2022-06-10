@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.team {
+    background: url(../img/Artemis_goddess.webp) center/cover no-repeat;
+}
+
+.a-card {
+    min-height: 20vh;
+    width: 40%;
+    box-shadow: 4px 4px 12px blue;
+    transition: all 1s ease-in-out;
+}
+
+.show {
+    opacity: 0;
+}
+
+.a-card:hover .show {
+    opacity: 1;
+}
+
+.a-card:hover {
+    background: #ffff;
+}
+
+.image-div {
+    width: 40%;
+}
+
+.list {
+    list-style: none;
+}
+
+ul {
+    padding: 0 !important;
+}
+
+
+@media (max-width: 1025px) {
+    .btn {
+        margin: 0px !important;
+    }
+}
+
+
+@media (max-width: 426px) {
+    .a-card {
+        width: 100%;
+    }
+}
