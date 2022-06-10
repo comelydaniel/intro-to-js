@@ -1,7 +1,7 @@
 const teamMembers = [
     {
         name: "Comely Daniel",
-        image: "../img/comely.jpg",
+        image: "img/comely.jpg",
         bestFood: "Ekpang Nkukwo",
         complexion: "slightly fair skinned",
         thingsLearnt: ["html", " css", " javascript"],
@@ -9,7 +9,7 @@ const teamMembers = [
         age: 23,
     }, {
         name: "Merit Dike",
-        image: "../img/merit.png",
+        image: "img/merit.png",
         bestFood: "Spaghetti",
         complexion: "slightly fair skinned",
         thingsLearnt: ["html", " css", " javascript"],
@@ -17,7 +17,7 @@ const teamMembers = [
         age: 25,
     }, {
         name: "Abdulsamad Raji",
-        image: "../img/abdulsamad.jpg",
+        image: "img/abdulsamad.jpg",
         bestFood: "Beans and ripe plantain",
         complexion: "dark skinned",
         thingsLearnt: ["html", " css", " javascript"],
@@ -25,7 +25,7 @@ const teamMembers = [
         age: 26,
     }, {
         name: "Daniel Ejeh",
-        image: "../img/ayo.jpg",
+        image: "img/ayo.jpg",
         bestFood: "Fried rice",
         complexion: "dark skinned",
         thingsLearnt: ["html", " css", " javascript"],
@@ -33,7 +33,7 @@ const teamMembers = [
         age: 24,
     }, {
         name: "Ayobami Ogundiya",
-        image: "../img/danny.png",
+        image: "img/danny.png",
         bestFood: "Egg sauce with fried yam",
         complexion: "dark skinned",
         thingsLearnt: ["html", " css", " javascript"],
@@ -41,7 +41,7 @@ const teamMembers = [
         age: 26,
     }, {
         name: "Gabriel Ekpo",
-        image: "../img/gabriel.png",
+        image: "img/gabriel.png",
         bestFood: "Afang soup",
         complexion: "dark skinned",
         thingsLearnt: ["html", " css", " javascript"],
@@ -49,7 +49,7 @@ const teamMembers = [
         age: 28,
     }, {
         name: "Emmanuel Stephen",
-        image:  "../img/emmanuel.png",
+        image:  "img/emmanuel.png",
         bestFood: "Atama soup",
         complexion: "fair skinned",
         thingsLearnt: ["html", " css", " javascript"],
@@ -57,7 +57,7 @@ const teamMembers = [
         age: 23,
     }, {
         name: "Ekpenyoung Amah",
-        image: "../img/ekpenyoung.jpg",
+        image: "img/ekpenyoung.jpg",
         bestFood: "Not picky",
         complexion: "dark skinned",
         thingsLearnt: ["html", " css", " javascript"],
@@ -74,7 +74,7 @@ for (let i = 0; i < teamMembers.length; i++) {
    <div class="show"> 
        <div class="d-flex flex-column align-items-center p-1">
             <div class="image-div">
-               <img src="${teamMembers[i].image}" alt="" class="rounded-circle" width=100%>
+               <img src="${teamMembers[i].image}" alt="profile-pics" class="rounded-circle" width=100%>
             </div>
             <h2 class="header text-center">${teamMembers[i].name}</h2>
         </div>
